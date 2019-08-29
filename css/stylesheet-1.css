@@ -11,11 +11,14 @@ header{
 	top: 0;
 	left: 0;
 	right: 0;
+	height: 100px;
 }
 
+/*
 h1{
 	font-size: 50px;
 }
+*/
 
 ul{
 	padding: 0px;
@@ -28,4 +31,12 @@ header li{
 
 header li:hover{
 	color: #E7F6FF;
+}
+
+main{
+	margin-top: 110px;
+}
+
+p{
+	font-size: 70px;
 }
