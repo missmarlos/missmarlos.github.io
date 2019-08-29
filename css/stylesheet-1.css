@@ -2,32 +2,22 @@ body{
 	background-color: #E7F6FF;
 }
 
-.header{
-	text-align: center;
-	position: fixed;
-	font-family: monospace;
-	color: white;
+header{
 	background-color: #CFECFF;
+	color: white;
+	text-align: center;
+	font-family: monospace;
+	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
-	z-index: 5;
-	padding: 0;
-	margin: 0 auto 0 auto;
-	height: 25%;
-	width: 100%;
 }
 
-.header li{
+ul{
+	padding: 0px;
 	list-style-type: none;
-	display: inline;
-	text-align: center;
-	margin: 0;
-	padding: 0;
 }
 
-p{
-	position: relative;
-	color: white;
-	font-size: 20px;
+header li{
+	display: inline;
 }
