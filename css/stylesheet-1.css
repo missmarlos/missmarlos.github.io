@@ -1,5 +1,6 @@
 body{
 	background-color: #E7F6FF;
+	font-family: monospace; 
 }
 
 header{
@@ -14,11 +15,17 @@ header{
 	height: 100px;
 }
 
-/*
+/* add this back in when you fix the spacing between header and 
+main to account for webpage responsiveness.
 h1{
 	font-size: 50px;
 }
 */
+
+a{
+	text-decoration: none;
+	color: white;
+}
 
 ul{
 	padding: 0px;
@@ -27,6 +34,7 @@ ul{
 
 header li{
 	display: inline;
+
 }
 
 header li:hover{
@@ -37,6 +45,6 @@ main{
 	margin-top: 110px;
 }
 
-p{
-	font-size: 70px;
+main div{
+	font-size: 50px;
 }
