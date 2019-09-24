@@ -4,50 +4,69 @@ body{
 }
 
 header{
+	
 	background-color: #CFECFF;
 	color: white;
-	text-align: center;
 	font-family: monospace;
+	text-align: center;
 	position: fixed;
-	top: 0;
+	top: 0; 
 	left: 0;
 	right: 0;
-	height: 100px;
+	height: 75px;
+	width: 100%;
+
 }
 
-/* add this back in when you fix the spacing between header and 
-main to account for webpage responsiveness.
-h1{
-	font-size: 50px;
+main{
+	margin-top: 75px;
 }
-*/
 
 a{
 	text-decoration: none;
 	color: white;
 }
 
-ul{
+nav ul{
+	/*
 	padding: 0px;
 	list-style-type: none;
+	*/
+	display: none;
 }
 
 header li{
 	display: inline;
-
 }
 
 header li:hover{
 	color: #E7F6FF;
 }
 
-main{
-	margin-top: 110px;
+img{
+	width: 100%;
 }
 
-main div p{
-	margin: 0;
-	padding: 0;
-	margin-top: 0px;
-	font-size: 50px;
+@media only screen and (min-width: 768px){
+	header{
+		height: 100px;
+	}
+
+	main{
+		margin-top: 100px;
+	}
+
+	nav ul{
+		display: inline;
+		padding: 0px;
+		list-style-type: none;
+	}
+
+	img{
+		height: 25%;
+		width: 25%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
