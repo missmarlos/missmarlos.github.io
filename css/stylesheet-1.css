@@ -7,7 +7,6 @@ header{
 	
 	background-color: #CFECFF;
 	color: white;
-	font-family: monospace;
 	text-align: center;
 	position: fixed;
 	top: 0; 
@@ -28,10 +27,6 @@ a{
 }
 
 nav ul{
-	/*
-	padding: 0px;
-	list-style-type: none;
-	*/
 	display: none;
 }
 
@@ -45,6 +40,10 @@ header li:hover{
 
 img{
 	width: 100%;
+}
+
+.img2{
+	display: none;
 }
 
 @media only screen and (min-width: 768px){
@@ -63,10 +62,33 @@ img{
 	}
 
 	img{
-		height: 25%;
-		width: 25%;
+		height: 30%;
+		width: 30%;
 		display: block;
-		margin-left: auto;
-		margin-right: auto;
+		margin-left: 30px;
+		margin-right: 30px;
 	}
+	.img1{
+		display: none;
+	}
+
+	.img2{
+		display: block;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;		
+	}
+
+	#about{
+		background-color: white;
+	}
+
+	#contact{
+		background-color: white;
+	}
+
+	#contact a{
+		color: black;
+	}
+	
 }
