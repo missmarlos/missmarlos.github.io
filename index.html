@@ -3,67 +3,60 @@
 	<head>
 		<title>MARELA</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="./css/stylesheet-1.css">
+		<link rel="stylesheet" type="text/css" href="./css/stylesheet-2.css">
 
 	</head>
 	<body>
-		<header>
-			<h1>MARELA CARLOS</h1>
-			<nav>
-				<ul>
-					<a href="#home"><li>HOME</li></a>
-					<a href="#about"><li>ABOUT</li></a>
-					<a href="#portfolio"><li>PORTFOLIO</li>
-					<a href="#contact"><li>CONTACT</li></a>
-				</ul>
-			</nav>
-		</header>
-		<!--Contains the bulk of the content-->
+
+		<div id="home">
+			<div id = "banner">
+				MARELA CARLOS
+
+			</div>
+			<header>
+				<nav>
+					<ul>
+						<a href="#home"><li>HOME / </li></a>
+						<a href="#about"><li>ABOUT / </li></a>
+						<a href="#portfolio"><li>PORTFOLIO / </li>
+						<a href="#contact"><li>CONTACT</li></a>
+					</ul>
+				</nav>
+			</header>
+		</div>
+
+
+
+
+
 		<main>
-			<div id="home">
-				<img class="img1" src="images/Marela.jpg" alt="Marela in Brussels, Belgium.">
-				<img class="img2" src="images/Marela3.jpg" alt="Marela in Hawaii">
+			<div id = "about" class="about">
+				<section class="about-title">
+					<h2>ABOUT</h2>
+				</section>
+				<section class ="me">
+					<img src="images/Marela.jpg" alt="that is me">
+				</section>
+				<section class="description">
+					<h3>Bio</h3>
+					<p>Hi, my name is Marela and I am in my third year of Computer Science at the University of Calgary. Additionally, I have a concentration in Sotware Engineering and am part of the Faculty of Science Internship Program. </p>
+				</section>
+				<section class="tech-interests">
+					<h3>Technical Interests</h3>
+					<p>My interests include</p>
+				</section>
+				<section class="other-interests">
+					<h3>Other Interests</h3>
+					<p>Outside of my degree, a few other hobbies I enjoy are: </p>
+				</section>
 			</div>
-			<div id="about">
-				<h2>ABOUT</h2>
-				<p>
-					I am a fourth year student at the University of Calgary. This is my third year in the Computer Science program and I am currently pursuing a concentration in Software Engineering. 
-				</p>
-			</div>
-			<div id="portfolio">
+
+
+			<div id="portfolio" class="about">
 				<h2>PORTFOLIO</h2>
-				<a href="https://github.com/missmarlos/missmarlos.github.io"><h3>PERSONAL WEBSITE</h3></a>
-				<p>
-					This is my first ever website! My intention for this website is to have it as an ongoing project, marked by separate versions. So since this is my first website, this is also the first version of it.
-				</p>
-				<h4>WHAT I LEARNED: <h4>
-				<ul>
-					<li>HTML5, CSS3</li>
-					<li>Mobile-first design</li>
-				</ul>
-
-				<a href="https://github.com/nmoton/CPSC471-HYPERTROPHY-WEB-APP"><h3>HYPERTROPHY WEB APPLICATION</h3></a>
-				<p>
-					This is a web-based application created using HTML5, CSS3, Bootstrap4, PHP, SQL. Its purpose is to allow users to join a motivational community of gym-goers to further their progress in the gym as well as to track the individual's workouts. 
-				</p>
-
-
-				<h4>WHAT I LEARNED: </h4>
-				<ul>
-					<li>How to store user data using PHP and SQL</li>
-					<li>Importance of time management when coding a project over a short period of time</li>
-				</ul>
-
-				<a href="https://github.com/missmarlos/HospitalManagement"><h3>HOSPITAL MANAGEMENT</h3></a>
-				<p>
-					A desktop application made using Java. The specific library used was Java Swing for the GUI. This application allows administrators to compose schedules for doctors as well as schedule/reschedule patients in for their appointments. Within the same app, doctors can request time off and input their availabilities so that the administrator can process this information and make their schedule for them. Doctors can then view their schedules. Patients are able to view their appointments after the administrator books them in.
-				</p>
-				<h4>WHAT I LEARNED: </h4>
-				<ul>
-					<li>Work in a team using Agile methods like SCRUM</li>
-					<li>Dealing with schedule conflicts by hosting meetings on SLACK</li>
-				</ul>
-
+				<section class="portfolio-title">
+					
+				</section>
 			</div>
 			<div id="contact">
 				<h2>CONTACT</h2>
@@ -75,5 +68,8 @@
 			</div>
 
 		</main>
+
 	</body>
 </html>
+
+

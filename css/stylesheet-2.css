@@ -1,17 +1,143 @@
-*{
-	background-color: blue;
+body{
+	background-color: #CFECFF;
+	margin: 0;
+	padding: 0;
 }
 
-.grid{
-	border: 2px blue solid;
-	width: 400px;
-	height: 500px;
-	display: grid;
+#banner {
+    height: 350px;/*Only for the demo.*/
+    background-color: #CFECFF;/*Only for the demo.*/
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 100px;
+
 }
 
-.box{
-	background-color: beige;
+nav{
+	font-family: sans-serif;
+	font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+	margin-top: 0;
+	text-align: center;
+	color: white;
+}
+
+header nav{
+	background-color: #CFECFF;
+	height: 300px;
+	display: block;
+}
+
+li{
+	text-align: center;
+	display: inline;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	list-style-type: none;
+	display: inline;
+}
+
+
+
+/*
+#inner-nav nav{
+	overflow: hidden;
+	height: 50px;
+	width: 100%;
+	background-color: #CFECFF;
+	margin: auto;
+	text-align: bottom;
+}
+*/
+
+main div{
+	background-color: #E7F6FF;
+	height: 600px;
+	margin: 50px;
+	padding: 50px;
+	padding-bottom: 25px;
+	padding-top: 25px; 
+	border-radius: 15px;
+
+	
+}
+
+main div h2{
+	font-family: sans-serif;
+	font-weight: bold;
+    font-style: italic;
+    font-size: 60px;
+	text-align: center;
 	color: black;
-	border-radius: 5px;
-	border: 2px dodgerblue solid;
 }
+
+.about{
+	display: grid;
+	position: relative;
+	grid-gap: 10px;
+	grid-template-areas: "about-title about-title"
+						"me description"
+						"me tech-interests"
+						"me other-interests";
+	grid-template-columns: 30% 70%;
+	grid-template-rows: 20% 25% 25% 25%;
+}
+
+.about section{
+	border-radius: 15px;
+	padding: 15px;
+}
+
+.about h2{
+	text-align: center;
+	grid-area: about;
+}
+
+
+.about section .me,.description,.tech-interests,.other-interests{
+	border: 1px solid #CFECFF;
+}
+
+.about-title{
+	grid-area: about-title;
+}
+
+.me{
+	border: 1px solid #CFECFF;
+	background-color: white;
+	grid-area: me;
+}
+
+.me img{
+	padding: 20px;
+	max-width:90%;
+    height:auto;
+}
+
+.description{
+	background-color: white;
+	grid-area: description;
+}
+
+.tech-interests{
+	background-color: white;
+	grid-area: tech-interests;
+}
+
+.other-interests{
+	background-color: white;
+	grid-area: other-interests;
+}
+
+
+
+

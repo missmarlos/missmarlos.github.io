@@ -1,5 +1,0 @@
-My first website created using html and css. Functional but empty. Will make updates to this website (javascript and of course the creation of more side projects). For now, take a look at the aesthetics of my first webpage. 
-
-Components: 
--logo design
-	-perhaps a gif of the speedpainting of the logo creation
