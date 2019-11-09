@@ -5,8 +5,8 @@ body{
 }
 
 #banner {
-    height: 350px;/*Only for the demo.*/
-    background-color: #CFECFF;/*Only for the demo.*/
+    height: 350px;
+    background-color: #CFECFF;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -46,19 +46,6 @@ a{
 	display: inline;
 }
 
-
-
-/*
-#inner-nav nav{
-	overflow: hidden;
-	height: 50px;
-	width: 100%;
-	background-color: #CFECFF;
-	margin: auto;
-	text-align: bottom;
-}
-*/
-
 main div{
 	background-color: #E7F6FF;
 	height: 600px;
@@ -80,6 +67,13 @@ main div h2{
 	color: black;
 }
 
+section .about, .portfolio, .contact{
+	border-radius: 15px;
+	padding: 15px;
+}
+
+
+/*ABOUT*/
 .about{
 	display: grid;
 	position: relative;
@@ -100,11 +94,6 @@ main div h2{
 .about h2{
 	text-align: center;
 	grid-area: about;
-}
-
-
-.about section .me,.description,.tech-interests,.other-interests{
-	border: 1px solid #CFECFF;
 }
 
 .about-title{
@@ -138,6 +127,79 @@ main div h2{
 	grid-area: other-interests;
 }
 
+.portfolio{
+	display: grid;
+	position: relative;
+	grid-gap: 10px;
+	grid-template-areas: "portfolio-title portfolio-title"
+						"hci personal"
+						"db seng";
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 30% 30% 30%;
+}
+
+.portfolio section{
+	border-radius: 15px;
+	padding: 15px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.portfolio-title{
+	grid-area: portfolio-title;
+}
+
+.hci{
+	background-color: white;
+	grid-area: hci;
+}
+
+.personal{
+	background-color: white;
+	grid-area: personal;
+}
+
+.db{
+	background-color: white;
+	grid-area: db;
+}
+
+.seng{
+	background-color: white;
+	grid-area: seng;
+}
+
+/*CONTACT*/
+.contact{
+	display: grid;
+	position: relative;
+	grid-gap: 10px;
+	grid-template-areas: "contact-title"
+						"contact-links";
+	grid-template-columns: 100%;
+	grid-template-rows: 20% 70%;
+}
+
+.contact section{
+	border-radius: 15px;
+	border-padding: 15px;
+}
+
+.contact section a{
+	font-color: black;
+}
+
+.contact-title{
+	grid-area: contact-title;
+}
+
+.contact-links{
+	background-color: white;
+	grid-area: contact-links;
+}
 
 
+.contact a{
 
+	color: black;
+}
