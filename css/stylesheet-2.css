@@ -2,7 +2,14 @@ body{
 	background-color: #CFECFF;
 	margin: 0;
 	padding: 0;
+	font-family: 'Open-sans', sans-serif;
+
 }
+
+h3{
+	font-style: italic;
+}
+
 
 #banner {
     height: 350px;
@@ -11,7 +18,7 @@ body{
     justify-content: center;
     align-items: flex-end;
     color: white;
-    font-family: sans-serif;
+    font-family: sans-serif;;
     font-weight: bold;
     font-style: italic;
     font-size: 100px;
@@ -19,7 +26,7 @@ body{
 }
 
 nav{
-	font-family: sans-serif;
+	font-family: sans-serif;;
 	font-weight: bold;
     font-style: italic;
     font-size: 25px;
@@ -34,17 +41,18 @@ header nav{
 	display: block;
 }
 
-li{
-	text-align: center;
-	display: inline;
-}
-
-a{
+header nav a{
 	text-decoration: none;
 	color: white;
 	list-style-type: none;
 	display: inline;
 }
+
+header nav li{
+	text-align: center;
+	display: inline;
+}
+
 
 main div{
 	background-color: #E7F6FF;
@@ -59,13 +67,15 @@ main div{
 }
 
 main div h2{
-	font-family: sans-serif;
+	font-family: sans-serif;;
 	font-weight: bold;
     font-style: italic;
     font-size: 60px;
 	text-align: center;
 	color: black;
 }
+
+
 
 section .about, .portfolio, .contact{
 	border-radius: 15px;
@@ -78,6 +88,19 @@ section .about, .portfolio, .contact{
 	display: grid;
 	position: relative;
 	grid-gap: 10px;
+	grid-template-areas: "about-title about-title about-title"
+						"me description description"
+						"me tech-interests other-interests";
+	grid-template-columns: 33% 33% 33%;
+	grid-template-rows: 20% 35% 35%;
+	justify-content: center;
+}
+
+/*
+.about{
+	display: grid;
+	position: relative;
+	grid-gap: 10px;
 	grid-template-areas: "about-title about-title"
 						"me description"
 						"me tech-interests"
@@ -85,10 +108,11 @@ section .about, .portfolio, .contact{
 	grid-template-columns: 30% 70%;
 	grid-template-rows: 20% 25% 25% 25%;
 }
+*/
 
 .about section{
 	border-radius: 15px;
-	padding: 15px;
+	padding: 10px;
 }
 
 .about h2{
@@ -101,15 +125,16 @@ section .about, .portfolio, .contact{
 }
 
 .me{
-	border: 1px solid #CFECFF;
 	background-color: white;
 	grid-area: me;
 }
 
 .me img{
-	padding: 20px;
-	max-width:90%;
-    height:auto;
+	display: flex;
+	height: 100%;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
 }
 
 .description{
@@ -127,6 +152,7 @@ section .about, .portfolio, .contact{
 	grid-area: other-interests;
 }
 
+/*PORTFOLIO*/
 .portfolio{
 	display: grid;
 	position: relative;
@@ -136,6 +162,7 @@ section .about, .portfolio, .contact{
 						"db seng";
 	grid-template-columns: 50% 50%;
 	grid-template-rows: 30% 30% 30%;
+	justify-content: center;
 }
 
 .portfolio section{
@@ -171,13 +198,14 @@ section .about, .portfolio, .contact{
 
 /*CONTACT*/
 .contact{
+	height: 300px;
 	display: grid;
 	position: relative;
 	grid-gap: 10px;
 	grid-template-areas: "contact-title"
 						"contact-links";
 	grid-template-columns: 100%;
-	grid-template-rows: 20% 70%;
+	grid-template-rows: 50% 40%;
 }
 
 .contact section{
@@ -201,5 +229,15 @@ section .about, .portfolio, .contact{
 
 .contact a{
 
+	padding: 100px;
 	color: black;
+
+}
+
+li:hover{
+	color: black;
+}
+
+a:hover{
+	color: #CFECFF;
 }
