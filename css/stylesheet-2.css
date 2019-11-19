@@ -6,10 +6,14 @@ body{
 
 }
 
-h3{
+h3, h4{
 	font-style: italic;
 }
 
+a{
+	text-decoration: none;
+	font-style: italic;
+}
 
 #banner {
     height: 350px;
@@ -96,20 +100,6 @@ section .about, .portfolio, .contact{
 	justify-content: center;
 }
 
-/*
-.about{
-	display: grid;
-	position: relative;
-	grid-gap: 10px;
-	grid-template-areas: "about-title about-title"
-						"me description"
-						"me tech-interests"
-						"me other-interests";
-	grid-template-columns: 30% 70%;
-	grid-template-rows: 20% 25% 25% 25%;
-}
-*/
-
 .about section{
 	border-radius: 15px;
 	padding: 10px;
@@ -122,6 +112,9 @@ section .about, .portfolio, .contact{
 
 .about-title{
 	grid-area: about-title;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .me{
@@ -165,11 +158,16 @@ section .about, .portfolio, .contact{
 	justify-content: center;
 }
 
+
+
 .portfolio section{
 	border-radius: 15px;
 	padding: 15px;
 	text-align: center;
 	font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .portfolio-title{
@@ -196,6 +194,15 @@ section .about, .portfolio, .contact{
 	grid-area: seng;
 }
 
+
+.portfolio a{
+	color: black;
+}
+
+.portfolio a:hover{
+	color: #CFECFF;
+}
+
 /*CONTACT*/
 .contact{
 	height: 300px;
@@ -206,15 +213,12 @@ section .about, .portfolio, .contact{
 						"contact-links";
 	grid-template-columns: 100%;
 	grid-template-rows: 50% 40%;
+	justify-content: center;
 }
 
 .contact section{
 	border-radius: 15px;
 	border-padding: 15px;
-}
-
-.contact section a{
-	font-color: black;
 }
 
 .contact-title{
@@ -223,21 +227,106 @@ section .about, .portfolio, .contact{
 
 .contact-links{
 	background-color: white;
-	grid-area: contact-links;
+	text-decoration: none;
+	padding: 15px;
 }
 
-
-.contact a{
-
-	padding: 100px;
+.contact-links li{
 	color: black;
-
 }
+
+.contact-links li:hover{
+	color:#CFECFF;
+}
+
+
+
+/*SKILLS*/
+
+.skills{
+	height: 680px;
+	display: grid;
+	position: relative;
+	grid-gap: 10px;
+	grid-template-areas: "skills-title skills-title"
+						"skills-container skills-courses";
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 20% 75%;
+}
+
+.skills-title{
+	grid-area: skills-title;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.skills-container{
+	grid-area: skills-container;
+	background-color: white;
+	font-weight: bold;
+}
+
+.skills section{
+	border-radius: 15px;
+	padding: 5px;
+}
+
+.skills-container .bar{
+	width: 98%;
+	background-color: black;
+	justify-content: center;
+}
+
+.skills-courses{
+	grid-area: skills-courses;
+	background-color: white;
+}
+
+.java{
+	width: 90%;
+	background-color: #E7F6FF;
+}
+
+
+.python{
+	width: 80%;
+	background-color: #E7F6FF;
+}
+
+.cpp{
+	width: 70%;
+	background-color: #E7F6FF;
+}
+
+.htmlcss{
+	width: 70%;
+	background-color: #E7F6FF;
+}
+
+.js{
+	width: 50%;
+	background-color: #E7F6FF;
+}
+
+.php{
+	width: 50%;
+	background-color: #E7F6FF;
+}
+
+.sql{
+	width: 50%;
+	background-color: #E7F6FF;
+}
+
+.skills h3{
+	text-align: center;
+}
+
+
+
+
 
 li:hover{
 	color: black;
-}
-
-a:hover{
-	color: #CFECFF;
 }
