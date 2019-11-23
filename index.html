@@ -3,77 +3,167 @@
 	<head>
 		<title>MARELA</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="./css/stylesheet-1.css">
-
+		<link rel="stylesheet" type="text/css" href="./css/stylesheet-2.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<header>
-			<h1>MARELA CARLOS</h1>
-			<nav>
-				<ul>
-					<a href="#home"><li>HOME</li></a>
-					<a href="#about"><li>ABOUT</li></a>
-					<a href="#portfolio"><li>PORTFOLIO</li>
-					<a href="#contact"><li>CONTACT</li></a>
-				</ul>
-			</nav>
-		</header>
-		<!--Contains the bulk of the content-->
+
+		<div id="home">
+			<div id = "banner">
+				MARELA CARLOS
+
+			</div>
+			<header>
+				<nav>
+					<ul>
+						<a href="#home"><li>HOME </li></a>
+						/
+						<a href="#about"><li>ABOUT </li></a>
+						/
+						<a href="#portfolio"><li>PORTFOLIO </li>
+						/
+						<a href="#contact"><li>LINKS</li></a>
+					</ul>
+				</nav>
+			</header>
+		</div>
+
 		<main>
-			<div id="home">
-				<img class="img1" src="images/Marela.jpg" alt="Marela in Brussels, Belgium.">
-				<img class="img2" src="images/Marela3.jpg" alt="Marela in Hawaii">
+			<div id = "about" class="about">
+				<!--
+				<a href="#home"class="button" id="home-button">home</a>
+				<a href="#skills" class="button" id="next-button">v</a>
+				-->
+				<section class="about-title">
+					<h2>ABOUT</h2>
+				</section>
+				<section class ="me">
+					<img src="images/Marela.jpg" alt="that is me">
+				</section>
+				<section class="description">
+					<h3>Bio</h3>
+					<p>Hi, my name is Marela and I am in my third year of Computer Science at the University of Calgary. Additionally, I have a concentration in Sotware Engineering and am part of the Faculty of Science Internship Program. </p>
+				</section>
+				<section class="tech-interests">
+					<h3>Technical Interests:</h3>
+					<ul>
+						<li>Software Engineering</li>
+						<li>Full Stack Development</li>
+						<li>Software Development</li>
+						<li>UX/UI Design</li>
+					</ul>
+				</section>
+				<section class="other-interests">
+					<h3>Other Interests:</h3>
+					<ul>
+						<li>Drawing</li>
+						<li>Travelling</li>
+						<li>Dancing</li>
+						<li>Fashion</li>
+						<li>Eating</li>
+					</ul>
+				</section>
 			</div>
-			<div id="about">
-				<h2>ABOUT</h2>
-				<p>
-					I am a fourth year student at the University of Calgary. This is my third year in the Computer Science program and I am currently pursuing a concentration in Software Engineering. 
-				</p>
+
+			<!-- Bar to showcase your proficiency in the skills -->
+			<div id ="skills" class="skills">
+				<section class="skills-title">
+					<h2>SKILLS</h2>
+				</section>
+				<section class="skills-container">
+					<!--<h3>Languages</h3>-->
+					<p>JAVA</p>
+					<section class = bar>
+						<section class = "java"></section>
+					</section>
+					<p>PYTHON</p>
+					<section class = bar>
+						<section class = "python"></section>
+					</section>
+					<p>C++/C</p>
+					<section class = bar>
+						<section class = "cpp"></section>
+					</section>
+					<p>HTML/CSS</p>
+					<section class = bar>
+						<section class = "htmlcss"></section>
+					</section>
+					<p>JAVASCRIPT</p>
+					<section class = bar>
+						<section class = "js"></section>
+					</section>
+					<p>PHP</p>
+					<section class = bar>
+						<section class = "php"></section>
+					</section>
+					<p>SQL</p>
+					<section class = bar>
+						<section class = "sql"></section>
+					</section>
+				</section>
+				<section class="skills-courses">
+					<h3>RELEVANT COURSES</h3>
+					<h4>Data Structures, Algorithms, and Their Analysis</h4>
+					<ul>
+						<li>Sorting algorithms</li>
+						<li>Analyze algorithmic efficiency</li>
+						<li>Implement data structures in Java</li>
+					</ul>
+					<h4>Introduction to Software Engineering</h4>
+					<ul>
+						<li>Agile</li>
+						<li>Scrum</li>
+					</ul>
+					<h4>Design and Analysis of Algorithms I</h4>
+					<ul>
+						<li>Greedy</li>
+						<li>Divide and Conquer</li>
+						<li>Dynamic Programming</li>
+					</ul>
+					<h4>Data Base Management Systems</h4>
+					<ul>
+						<li>Design databases</li>
+						<li>Implement queries</li>
+					</ul>
+
+				</section>
 			</div>
-			<div id="portfolio">
-				<h2>PORTFOLIO</h2>
-				<a href="https://github.com/missmarlos/missmarlos.github.io"><h3>PERSONAL WEBSITE</h3></a>
-				<p>
-					This is my first ever website! My intention for this website is to have it as an ongoing project, marked by separate versions. So since this is my first website, this is also the first version of it.
-				</p>
-				<h4>WHAT I LEARNED: <h4>
-				<ul>
-					<li>HTML5, CSS3</li>
-					<li>Mobile-first design</li>
-				</ul>
-
-				<a href="https://github.com/nmoton/CPSC471-HYPERTROPHY-WEB-APP"><h3>HYPERTROPHY WEB APPLICATION</h3></a>
-				<p>
-					This is a web-based application created using HTML5, CSS3, Bootstrap4, PHP, SQL. Its purpose is to allow users to join a motivational community of gym-goers to further their progress in the gym as well as to track the individual's workouts. 
-				</p>
 
 
-				<h4>WHAT I LEARNED: </h4>
-				<ul>
-					<li>How to store user data using PHP and SQL</li>
-					<li>Importance of time management when coding a project over a short period of time</li>
-				</ul>
-
-				<a href="https://github.com/missmarlos/HospitalManagement"><h3>HOSPITAL MANAGEMENT</h3></a>
-				<p>
-					A desktop application made using Java. The specific library used was Java Swing for the GUI. This application allows administrators to compose schedules for doctors as well as schedule/reschedule patients in for their appointments. Within the same app, doctors can request time off and input their availabilities so that the administrator can process this information and make their schedule for them. Doctors can then view their schedules. Patients are able to view their appointments after the administrator books them in.
-				</p>
-				<h4>WHAT I LEARNED: </h4>
-				<ul>
-					<li>Work in a team using Agile methods like SCRUM</li>
-					<li>Dealing with schedule conflicts by hosting meetings on SLACK</li>
-				</ul>
+			<div id="portfolio" class="portfolio">
+				<section class="portfolio-title">
+					<h2>PORTFOLIO</h2>
+				</section>
+				<section class="hci">
+					<a href="portfolio.html#hci" target="_blank"><h3>CPSC 481: HUMAN COMPUTER INTERACTION - BARKIPEDIA</h3></a>
+				</section>
+				<section class="personal">
+					<a href="portfolio.html#personal" target="_blank"><h3>PERSONAL WEBSITE</h3></a>
+				</section>
+				<section class="db">
+					<a href="portfolio.html#db" target="_blank"><h3>CPSC 471: DATABASE MANAGEMENT SYSTEMS - HYPERTROPHY WEB APPLICATION</h3></a>
+				</section>
+				<section class="seng">
+					<a href="portfolio.html#seng" target="_blank"><h3>SENG 300: INTRODUCTION TO SOFTWARE ENGINEERING - HOSPITAL MANAGEMENT</h3></a>
+				</section>
 
 			</div>
-			<div id="contact">
-				<h2>CONTACT</h2>
-				<ul>
-					<a href="https://github.com/missmarlos"><li>GitHub</li></a>
-					<a href="https://linkedin.com/in/marela-carlos"><li>LinkedIn</li></a>
-				</ul>
 
+			<!-- Implement backend for user to fill out their information -->			
+			<div id="contact" class="contact">
+				<section class = "contact-title">
+					<h2>LINKS</h2>
+				</section>
+				<section class="contact-links">
+					<a href="https://github.com/missmarlos" target="_blank"><h3><li>GitHub</li></a></h3>
+					<a href="https://linkedin.com/in/marela-carlos" target="_blank"><h3><li>LinkedIn</li></a></h3>
+				</section>
 			</div>
 
 		</main>
+
 	</body>
 </html>
+
+
+
