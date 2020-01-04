@@ -86,25 +86,6 @@ section .about, .portfolio, .contact{
 	padding: 15px;
 }
 
-/*BUTTONS
-.button{
-	background-color: black;
-	color: white;
-	border-radius: 4px;	
-	display: inline-block;
-}
-
-#home-button{
-	position: absolute;
-	top: 0;
-	left:0;
-}
-
-#next-button{
-}
-*/
-
-
 /*ABOUT*/
 .about{
 	display: grid;

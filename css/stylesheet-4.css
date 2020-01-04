@@ -1,0 +1,479 @@
+body{
+	background-color: #CFECFF;
+	margin: 0;
+	padding: 0;
+	font-family: 'Open-sans', sans-serif;
+
+}
+
+h3, h4{
+	font-style: italic;
+}
+
+a{
+	text-decoration: none;
+	font-style: italic;
+}
+
+#banner {
+    height: 400px;
+    background-color: #CFECFF;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    font-family: sans-serif;;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 90px;
+    text-align: center;
+}
+
+nav{
+	font-family: sans-serif;;
+	font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+	margin-top: 0;
+	text-align: center;
+	color: white;
+}
+
+header nav{
+	background-color: #CFECFF;
+	height: 300px;
+	display: block;
+}
+
+header nav a{
+	text-decoration: none;
+	color: white;
+	list-style-type: none;
+	display: inline;
+}
+
+header nav li{
+	text-align: center;
+	display: block;
+}
+
+
+main div{
+	background-color: #E7F6FF;
+	height: 736px;
+	margin: 30px;
+	padding: 10px;
+	padding-bottom: 25px;
+	padding-top: 25px; 
+	border-radius: 15px;
+
+	
+}
+
+main div h2{
+	font-family: sans-serif;;
+	font-weight: bold;
+    font-style: italic;
+    font-size: 50px;
+	text-align: center;
+	color: black;
+}
+
+
+
+section .about, .portfolio, .contact{
+	border-radius: 15px;
+	padding: 15px;
+}
+
+/*ABOUT*/
+.about{
+	display: grid;
+	position: relative;
+	grid-gap: 15px;
+	grid-template-areas: "about-title"
+						"description"
+						"tech-interests"
+						"other-interests";
+	grid-template-columns: 100%;
+	grid-template-rows: 15% 30% 25% 25%;
+	justify-content: center;
+}
+
+
+.about section{
+	border-radius: 15px;
+	padding: 10px;
+}
+
+.me{
+	display: none;
+}
+
+.about-title{
+	grid-area: about-title;
+}
+
+.description{
+	background-color: white;
+	grid-area: description;
+}
+
+.tech-interests{
+	background-color: white;
+	grid-area: tech-interests;
+}
+
+.other-interests{
+	background-color: white;
+	grid-area: other-interests;
+}
+
+
+/*PORTFOLIO*/
+.portfolio{
+	display: grid;
+	position: relative;
+	grid-gap: 15px;
+	grid-template-areas: "portfolio-title portfolio-title"
+						"hci personal"
+						"db seng";
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 30% 30% 30%;
+	justify-content: center;
+}
+
+
+
+.portfolio section{
+	border-radius: 15px;
+	padding: 15px;
+	text-align: center;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.portfolio-title{
+	grid-area: portfolio-title;
+}
+
+.hci{
+	background-color: white;
+	grid-area: hci;
+}
+
+.personal{
+	background-color: white;
+	grid-area: personal;
+}
+
+.db{
+	background-color: white;
+	grid-area: db;
+}
+
+.seng{
+	background-color: white;
+	grid-area: seng;
+}
+
+
+.portfolio a{
+	color: black;
+}
+
+.portfolio a:hover{
+	color: #CFECFF;
+}
+
+/*CONTACT*/
+.contact{
+	height: 300px;
+	display: grid;
+	position: relative;
+	grid-gap: 10px;
+	grid-template-areas: "contact-title"
+						"contact-links";
+	grid-template-columns: 100%;
+	grid-template-rows: 50% 40%;
+	justify-content: center;
+}
+
+.contact section{
+	border-radius: 15px;
+	border-padding: 15px;
+}
+
+.contact-title{
+	grid-area: contact-title;
+}
+
+.contact-links{
+	background-color: white;
+	text-decoration: none;
+	padding: 15px;
+}
+
+.contact-links li{
+	color: black;
+}
+
+.contact-links li:hover{
+	color:#CFECFF;
+}
+
+
+
+/*SKILLS*/
+.skills{
+	height: 1250px;
+	display: grid;
+	position: relative;
+	grid-gap: 15px;
+	grid-template-areas: "skills-title"
+						"skills-container"
+						"skills-courses";
+	grid-template-columns: 100%;
+	grid-template-rows: 10% 42% 42%;
+}
+
+.skills-title{
+	grid-area: skills-title;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.skills-container{
+	grid-area: skills-container;
+	background-color: white;
+	font-weight: bold;
+}
+
+.skills section{
+	border-radius: 15px;
+	padding: 5px;
+}
+
+.skills-container .bar{
+	width: 98%;
+	background-color: black;
+	justify-content: center;
+}
+
+.skills-courses{
+	grid-area: skills-courses;
+	background-color: white;
+}
+
+.java{
+	width: 90%;
+	background-color: #E7F6FF;
+}
+
+
+.python{
+	width: 80%;
+	background-color: #E7F6FF;
+}
+
+.cpp{
+	width: 70%;
+	background-color: #E7F6FF;
+}
+
+.htmlcss{
+	width: 70%;
+	background-color: #E7F6FF;
+}
+
+.js{
+	width: 50%;
+	background-color: #E7F6FF;
+}
+
+.php{
+	width: 50%;
+	background-color: #E7F6FF;
+}
+
+.sql{
+	width: 50%;
+	background-color: #E7F6FF;
+}
+
+.skills h3{
+	text-align: center;
+}
+
+li:hover{
+	color: black;
+}
+
+@media only screen and (min-width: 768px){
+	#banner{
+		height: 670px;
+	}
+
+	main div{
+		height: 1024px;
+		border-radius: 15px;
+	}
+
+	.about{
+		display: grid;
+		position: relative;
+		grid-gap: 10px;
+		grid-template-areas: "about-title about-title about-title"
+							"me description description"
+							"me tech-interests other-interests";
+		grid-template-columns: 50% 25% 25%;
+		grid-template-rows: 20% 35% 35%;
+		justify-content: center;
+	}
+
+	.about section{
+		border-radius: 15px;
+		padding: 10px;
+	}
+
+	.about h2{
+		text-align: center;
+		grid-area: about;
+	}
+
+	.about-title{
+		grid-area: about-title;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.me{
+		display: flex;
+		background-color: white;
+		grid-area: me;
+	}
+
+	.me img{
+		object-fit: cover;
+		display: flex;
+		height: auto;
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.description{
+		background-color: white;
+		grid-area: description;
+	}
+
+	.tech-interests{
+		background-color: white;
+		grid-area: tech-interests;
+	}
+
+	.other-interests{
+		background-color: white;
+		grid-area: other-interests;
+	}
+
+}
+
+@media only screen and (min-width: 1024px){
+	#banner {
+	    height: 350px;
+	}
+
+	header nav li{
+		text-align: center;
+		display: inline;
+	}
+
+
+	main div{
+		background-color: #E7F6FF;
+		height: 600px;
+		margin: 50px;
+		padding: 50px;
+	}
+
+	main div h2{
+	    font-size: 60px;
+	}
+
+	/*ABOUT*/
+	.about{
+		display: grid;
+		position: relative;
+		grid-gap: 10px;
+		grid-template-areas: "about-title about-title about-title"
+							"me description description"
+							"me tech-interests other-interests";
+		grid-template-columns: 33% 33% 33%;
+		grid-template-rows: 20% 35% 35%;
+		justify-content: center;
+	}
+
+	.about section{
+		border-radius: 15px;
+		padding: 10px;
+	}
+
+	.about h2{
+		text-align: center;
+		grid-area: about;
+	}
+
+	.about-title{
+		grid-area: about-title;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.me{
+		display: block;
+		background-color: white;
+		grid-area: me;
+	}
+
+	.me img{
+		display: flex;
+		height: 100%;
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.description{
+		background-color: white;
+		grid-area: description;
+	}
+
+	.tech-interests{
+		background-color: white;
+		grid-area: tech-interests;
+	}
+
+	.other-interests{
+		background-color: white;
+		grid-area: other-interests;
+	}
+
+	/*SKILLS*/
+
+	.skills{
+		height: 680px;
+		display: grid;
+		position: relative;
+		grid-gap: 10px;
+		grid-template-areas: "skills-title skills-title"
+							"skills-container skills-courses";
+		grid-template-columns: 50% 50%;
+		grid-template-rows: 20% 75%;
+	}
+}
