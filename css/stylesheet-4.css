@@ -290,9 +290,10 @@ section .about, .portfolio, .contact{
 }
 
 .js{
-	width: 50%;
+	width: 25%;
 	background-color: #E7F6FF;
 }
+
 
 .php{
 	width: 50%;
