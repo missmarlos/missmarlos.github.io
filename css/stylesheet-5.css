@@ -20,11 +20,15 @@ h2{
 
 div{
 	background-color: #E7F6FF;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
 	height: 600px;
-	margin: 50px;
 	padding: 50px;
 	padding-bottom: 25px;
 	padding-top: 25px; 
 	border-radius: 15px;
 }
+
 
