@@ -49,6 +49,10 @@
     justify-content: space-evenly;
 }
 
+.linksLabels {
+    
+}
+
 .menu {
     grid-row: 4/5;
     grid-column: 7/8;

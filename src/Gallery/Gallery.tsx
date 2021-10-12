@@ -6,7 +6,6 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import marela from '../Assets/marela.jpeg';
 
 export interface ImageItem {
     image: string;
@@ -16,6 +15,7 @@ export interface ImageItem {
 
 interface Props {
     items: ImageItem[];
+    numOfCols: number;
 }
 
 
@@ -23,7 +23,7 @@ export default function Gallery(props: Props){
     return(
         <>
             <Box sx={{ width: "100%", height: "100%", overflowY: "scroll" }}>
-                <ImageList variant="masonry" cols={2} gap={8}>
+                <ImageList variant="masonry" cols={props.numOfCols} gap={8}>
                     {props.items.map((item) => (
                     <ImageListItem key={item.image}>
                         <img

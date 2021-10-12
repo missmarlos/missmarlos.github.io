@@ -1,11 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
-#portfolio.root {
+.portfolioRoot {
     background: #B6A1A2;
     display: grid;
+    height: 100%;
+}
+
+#me.portfolioRoot {
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(55, 50px);
-    height: 100%;
+}
+
+#barkipedia.portfolioRoot {
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(30, 50px);
+}
+
+#hypertrophy.portfolioRoot {
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(28, 50px);
 }
 
 #portfolio.title {
@@ -19,15 +32,35 @@
     align-items: center;
 }
 
-.hci {
+.subRoot {
     background-color: #F4F2E8;
+    
+    border-radius: 10px;
+    font-family: 'Playfair Display', serif;
+}
+
+#me.subRoot {
     grid-column: 2/9;
     grid-row: 4/53;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(52, 50px);
-    border-radius: 10px;
-    font-family: 'Playfair Display', serif;
+}
+
+#barkipedia.subRoot {
+    grid-column: 2/9;
+    grid-row: 4/28;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(27, 50px);
+}
+
+#hypertrophy.subRoot {
+    grid-column: 2/9;
+    grid-row: 4/28;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(25, 50px);
 }
 
 .navigation {
@@ -37,7 +70,7 @@
     align-self: flex-end;
 }
 
-.hciTitle {
+.subRootTitle {
     font-size: 36px;
     font-family: 'Abril Fatface', cursive;
     color: "#303C36";
@@ -107,7 +140,6 @@
 }
 
 .extras {
-    grid-row: 44/45;
     grid-column: 2/7;
     text-align: center;
     font-family: 'Abril Fatface', cursive;
@@ -115,6 +147,18 @@
     font-size: 24px;
     display: flex;
     justify-content: space-evenly;
+}
+
+#me.extras {
+    grid-row: 44/45;
+}
+
+#barkipedia.extras {
+    grid-row: 22/24;
+}
+
+#hypertrophy.extras {
+    grid-row: 21/23
 }
 
 .myContributionsTitle {
@@ -128,5 +172,38 @@
 
 .myContributions {
     grid-row: 47/49;
+    grid-column: 2/7;
+}
+
+.stepsTitle, .landingPageTitle{
+    grid-row: 7/8;
+    grid-column: 2/7;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    color: #5F7399;
+    font-size: 24px;
+}
+
+.stepsContent {
+    grid-row: 8/10;
+    grid-column: 2/7;
+}
+
+.prototypeTitle {
+    grid-row: 10/11;
+    grid-column: 2/7;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    color: #5F7399;
+    font-size: 24px;
+}
+
+.prototypeGallery {
+    grid-row: 11/21;
+    grid-column: 2/7;
+}
+
+.landingPageGallery {
+    grid-row: 8/20;
     grid-column: 2/7;
 }

@@ -6,6 +6,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import DescriptionIcon from '@mui/icons-material/Description';
 import { Button, createTheme, ThemeProvider } from '@mui/material';
+import resume from '../Assets/Resume.pdf';
 
 const theme = createTheme({
     palette: {
@@ -45,6 +46,9 @@ export default function Home(props: Props){
                         </Button>
                         <Button style={{maxHeight: "30px", maxWidth: "30px", minHeight: "30px", minWidth: "30px"}} href="https://www.linkedin.com/in/marela-carlos">
                             <LinkedInIcon style={{maxHeight: "55px", maxWidth: "55px", minHeight: "55px", minWidth: "55px"}}/>
+                        </Button>
+                        <Button style={{maxHeight: "30px", maxWidth: "30px", minHeight: "30px", minWidth: "30px"}} href={resume} target="_blank">
+                            <DescriptionIcon style={{maxHeight: "55px", maxWidth: "55px", minHeight: "55px", minWidth: "55px"}}/>
                         </Button>
                     </div>
                 </div>

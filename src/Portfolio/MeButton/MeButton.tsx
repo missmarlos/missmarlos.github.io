@@ -1,26 +1,26 @@
-import './Portfolio.css';
-import Gallery, { ImageItem } from '../Gallery/Gallery';
+import '../Portfolio.css';
+import Gallery, { ImageItem } from '../../Gallery/Gallery';
 import { conceptSketches, refinedSketches } from './Sketches';
 import CodeIcon from '@mui/icons-material/Code';
 import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 import { Button } from '@mui/material';
-import NavMenu from '../NavMenu/NavMenu';
+import NavMenu from '../../NavMenu/NavMenu';
 
-export default function Portfolio(){
+export default function MeButton(){
     const conceptItems = conceptSketches as ImageItem[];
     const refintedItems = refinedSketches as ImageItem[];
 
     return(
         <>
-            <div className="root" id="portfolio">
+            <div className="portfolioRoot" id="me">
                 <div className="title" id="portfolio">
                     portfolio
                 </div>
-                <div className="hci">
+                <div className="subRoot" id="me">
                     <div className="navigation">
                         <NavMenu/>
                     </div>
-                    <div className="hciTitle">
+                    <div className="subRootTitle">
                         cpsc 581 project 1: me-button 
                     </div>
                     <div className="descriptionTitle">
@@ -40,13 +40,13 @@ export default function Portfolio(){
                         concept sketches
                     </div>
                     <div className="conceptGallery">
-                        <Gallery items={conceptItems}/>
+                        <Gallery items={conceptItems} numOfCols={2}/>
                     </div>
                     <div className="refinedTitle">
                         refined sketches
                     </div>
                     <div className="refinedGallery">
-                        <Gallery items={refintedItems}/>
+                        <Gallery items={refintedItems} numOfCols={2}/>
                     </div>
                     <div className="videoTitle">
                         demo
@@ -62,7 +62,7 @@ export default function Portfolio(){
                             allowFullScreen>
                         </iframe>
                     </div>
-                    <div className="extras">
+                    <div className="extras" id="me">
                         <div className="sourceCode">
                             source code
                             <div>
