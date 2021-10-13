@@ -1,97 +1,30 @@
 [
     {
-        "page": "home",
+        "page": "Home",
+        "path": "home",
         "content": { 
-            "text": "Hello! My name is Marela and I am a final year Computer Science student in Canada. In my free time I like to read books and go out to eat with my friends."
+            "text": "Hello! My name is Marela and I am a final year Computer Science student in Canada. In my free time, I like to read books and go out to eat with my friends."
         }
     },
     {
-        "page": "portfolio",
+        "page": "Project: Me Button",
+        "path": "portfolio3",
         "content": {
-            "conceptSketches": [
-                {
-                    "image": "../Assets/marela.jpeg",
-                    "title": "Concept Sketch 1"
-                },
-                {
-                    "image": "../Assets/marela.jpeg",
-                    "title": "Concept Sketch 2"
-                },
-                {
-                    "image": "src/Assets/marela.jpeg",
-                    "title": "Concept Sketch 3"
-                },
-                {
-                    "image": "src/Assets/marela.jpeg",
-                    "title": "Concept Sketch 4"
-                },
-                {
-                    "image": "src/Assets/marela.jpeg",
-                    "title": "Concept Sketch 5"
-                },
-                {
-                    "image": "src/Assets/marela.jpeg",
-                    "title": "Concept Sketch 6"
-                },
-                {
-                    "image": "src/Assets/marela.jpeg",
-                    "title": "Concept Sketch 7"
-                },
-                {
-                    "image": "src/Assets/marela.jpeg",
-                    "title": "Concept Sketch 8"
-                },
-                {
-                    "image": "src/Assets/marela.jpeg",
-                    "title": "Concept Sketch 9"
-                },
-                {
-                    "image": "src/Assets/marela.jpeg",
-                    "title": "Concept Sketch 10"
-                }
-            ],
-            "refinedSketches": [
-                {
-                    "image": "",
-                    "title": "Refined Sketch 1"
-                },
-                {
-                    "image": "",
-                    "title": "Refined Sketch 2"
-                },
-                {
-                    "image": "",
-                    "title": "Refined Sketch 3"
-                },
-                {
-                    "image": "",
-                    "title": "Refined Sketch 4"
-                },
-                {
-                    "image": "",
-                    "title": "Refined Sketch 5"
-                },
-                {
-                    "image": "",
-                    "title": "Refined Sketch 6"
-                },
-                {
-                    "image": "",
-                    "title": "Refined Sketch 7"
-                },
-                {
-                    "image": "",
-                    "title": "Refined Sketch 8"
-                },
-                {
-                    "image": "",
-                    "title": "Refined Sketch 9"
-                },
-                {
-                    "image": "",
-                    "title": "Refined Sketch 10"
-                }
-            ]
+            
+        }
+    },
+    {
+        "page": "Project: Barkipedia",
+        "path": "portfolio2",
+        "content": {
+
+        }
+    },
+    {
+        "page": "Project: Hypertrophy",
+        "path": "portfolio1",
+        "content": {
+
         }
     }
 ]

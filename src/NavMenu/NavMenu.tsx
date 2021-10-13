@@ -52,7 +52,7 @@ export default function NavMenu(){
                 >
                     {text.map((x) => {
                         return(
-                            <Link to={`/${x.page}`}>
+                            <Link to={`/${x.path}`}>
                                 <MenuItem>
                                     {x.page}
                                 </MenuItem>
