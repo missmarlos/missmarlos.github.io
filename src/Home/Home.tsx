@@ -16,10 +16,7 @@ const theme = createTheme({
         secondary: {
             main: "#F4F2E8"
         }
-    },
-    typography: {
-        fontFamily: "'Playfair Display', serif"
-    },
+    }
   });
 
 interface Props {
