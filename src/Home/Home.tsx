@@ -16,7 +16,10 @@ const theme = createTheme({
         secondary: {
             main: "#F4F2E8"
         }
-    }
+    },
+    typography: {
+        fontFamily: "'Playfair Display', serif"
+    },
   });
 
 interface Props {
@@ -41,10 +44,10 @@ export default function Home(props: Props){
                         {props.text}
                     </div>
                     <div className="links">
-                        <Button style={{maxHeight: "30px", maxWidth: "30px", minHeight: "30px", minWidth: "30px"}} href="https://github.com/missmarlos">
+                        <Button style={{maxHeight: "30px", maxWidth: "30px", minHeight: "30px", minWidth: "30px"}} href="https://github.com/missmarlos" target="_blank">
                             <GitHubIcon style={{maxHeight: "55px", maxWidth: "55px", minHeight: "55px", minWidth: "55px"}}/>
                         </Button>
-                        <Button style={{maxHeight: "30px", maxWidth: "30px", minHeight: "30px", minWidth: "30px"}} href="https://www.linkedin.com/in/marela-carlos">
+                        <Button style={{maxHeight: "30px", maxWidth: "30px", minHeight: "30px", minWidth: "30px"}} href="https://www.linkedin.com/in/marela-carlos" target="_blank">
                             <LinkedInIcon style={{maxHeight: "55px", maxWidth: "55px", minHeight: "55px", minWidth: "55px"}}/>
                         </Button>
                         <Button style={{maxHeight: "30px", maxWidth: "30px", minHeight: "30px", minWidth: "30px"}} href={resume} target="_blank">
