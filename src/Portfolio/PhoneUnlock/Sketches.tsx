@@ -119,7 +119,7 @@ export const refinedSketches = [
     {
         image: m8,
         title: "Part B - Marela",
-        description: "Tap paddcode word out in morse code and the character's alarm will wake them up."
+        description: "Tap passcode word out in morse code and the character's alarm will wake them up."
     },
     {
         image: m9,
