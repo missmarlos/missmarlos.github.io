@@ -6,6 +6,11 @@
     height: 100%;
 }
 
+#unlock.portfolioRoot {
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(62, 50px);
+}
+
 #me.portfolioRoot {
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(55, 50px);
@@ -37,6 +42,14 @@
     
     border-radius: 10px;
     font-family: 'Playfair Display', serif;
+}
+
+#unlock.subRoot {
+    grid-column: 2/9;
+    grid-row: 4/60;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(55, 50px);
 }
 
 #me.subRoot {
@@ -94,6 +107,10 @@
     grid-column: 2/7;
 }
 
+#unlock.descriptionContent {
+    grid-row: 5/9;
+}
+
 .conceptTitle {
     grid-row: 7/8;
     grid-column: 2/7;
@@ -103,9 +120,22 @@
     font-size: 24px;
 }
 
+#unlock.conceptTitle {
+    grid-row: 10/11
+}
+
+#unlock.conceptDescription {
+    grid-row: 11/12;
+    grid-column: 2/7;
+}
+
 .conceptGallery {
     grid-row: 8/20;
     grid-column: 2/7;
+}
+
+#unlock.conceptGallery {
+    grid-row: 12/24;
 }
 
 .refinedTitle {
@@ -117,10 +147,23 @@
     font-size: 24px;
 }
 
+#unlock.refinedTitle {
+    grid-row: 25/26;
+}
+
+#unlock.refinedDescription {
+    grid-row: 26/28;
+    grid-column: 2/7;
+}
+
 .refinedGallery {
     grid-row: 22/34;
     grid-column: 2/7;
 } 
+
+#unlock.refinedGallery {
+    grid-row: 28/40;
+}
 
 .videoTitle {
     grid-row: 35/36;
@@ -131,12 +174,20 @@
     font-size: 24px;
 }
 
+#unlock.videoTitle {
+    grid-row: 41/42;
+}
+
 .video {
     grid-row: 36/43;
     grid-column: 2/7;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#unlock.video {
+    grid-row: 42/49;
 }
 
 .extras {
@@ -147,6 +198,10 @@
     font-size: 24px;
     display: flex;
     justify-content: space-evenly;
+}
+
+#unlock.extras {
+    grid-row: 50/51;
 }
 
 #me.extras {
@@ -161,6 +216,21 @@
     grid-row: 21/23
 }
 
+.extrasContent {
+    grid-row: 51/52;
+    grid-column: 2/7;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    color: #80ACA1;
+    font-size: 16px;
+}
+
+a.unlockLink:hover {
+    color: #D4F099;
+}
+
 .myContributionsTitle {
     grid-row: 46/47;
     grid-column: 2/7;
@@ -170,9 +240,17 @@
     font-size: 24px;
 }
 
+#unlock.myContributionsTitle {
+    grid-row: 53/54;
+}
+
 .myContributions {
     grid-row: 47/49;
     grid-column: 2/7;
+}
+
+#unlock.myContributions {
+    grid-row: 54/55;
 }
 
 .stepsTitle, .landingPageTitle{

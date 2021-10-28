@@ -1,24 +1,24 @@
-import c1 from '../../Assets/ConceptSketches/1.png';
-import c2 from '../../Assets/ConceptSketches/2.png';
-import c3 from '../../Assets/ConceptSketches/3.png';
-import c4 from '../../Assets/ConceptSketches/4.png';
-import c5 from '../../Assets/ConceptSketches/5.png';
-import c6 from '../../Assets/ConceptSketches/6.png';
-import c7 from '../../Assets/ConceptSketches/7.png';
-import c8 from '../../Assets/ConceptSketches/8.png';
-import c9 from '../../Assets/ConceptSketches/9.png';
-import c10 from '../../Assets/ConceptSketches/10.png';
+import c1 from '../../Assets/MeButton/ConceptSketches/1.png';
+import c2 from '../../Assets/MeButton/ConceptSketches/2.png';
+import c3 from '../../Assets/MeButton/ConceptSketches/3.png';
+import c4 from '../../Assets/MeButton/ConceptSketches/4.png';
+import c5 from '../../Assets/MeButton/ConceptSketches/5.png';
+import c6 from '../../Assets/MeButton/ConceptSketches/6.png';
+import c7 from '../../Assets/MeButton/ConceptSketches/7.png';
+import c8 from '../../Assets/MeButton/ConceptSketches/8.png';
+import c9 from '../../Assets/MeButton/ConceptSketches/9.png';
+import c10 from '../../Assets/MeButton/ConceptSketches/10.png';
 
-import r1 from '../../Assets/RefinedSketches/1.png';
-import r2 from '../../Assets/RefinedSketches/2.png';
-import r3 from '../../Assets/RefinedSketches/3.png';
-import r4 from '../../Assets/RefinedSketches/4.png';
-import r5 from '../../Assets/RefinedSketches/5.png';
-import r6 from '../../Assets/RefinedSketches/6.png';
-import r7 from '../../Assets/RefinedSketches/7.png';
-import r8 from '../../Assets/RefinedSketches/8.png';
-import r9 from '../../Assets/RefinedSketches/9.png';
-import r10 from '../../Assets/RefinedSketches/10.png';
+import r1 from '../../Assets/MeButton/RefinedSketches/1.png';
+import r2 from '../../Assets/MeButton/RefinedSketches/2.png';
+import r3 from '../../Assets/MeButton/RefinedSketches/3.png';
+import r4 from '../../Assets/MeButton/RefinedSketches/4.png';
+import r5 from '../../Assets/MeButton/RefinedSketches/5.png';
+import r6 from '../../Assets/MeButton/RefinedSketches/6.png';
+import r7 from '../../Assets/MeButton/RefinedSketches/7.png';
+import r8 from '../../Assets/MeButton/RefinedSketches/8.png';
+import r9 from '../../Assets/MeButton/RefinedSketches/9.png';
+import r10 from '../../Assets/MeButton/RefinedSketches/10.png';
 
 
 export const conceptSketches = [
