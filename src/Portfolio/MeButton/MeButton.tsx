@@ -64,9 +64,9 @@ export default function MeButton(){
                     </div>
                     <div className="extras" id="me">
                         <div className="sourceCode">
-                            <a href="https://github.com/soapsrc/Project-Me-Button.git" target="_blank">source code</a>
+                            <a href="https://github.com/soapsrc/Project-Me-Button.git" target="_blank" rel="noreferrer">source code</a>
                             <div>
-                                <Button style={{maxHeight: "30px", maxWidth: "30px", minHeight: "30px", minWidth: "30px"}} href="https://github.com/soapsrc/Project-Me-Button.git" target="_blank">
+                                <Button style={{maxHeight: "30px", maxWidth: "30px", minHeight: "30px", minWidth: "30px"}} href="https://github.com/soapsrc/Project-Me-Button.git" target="_blank" rel="noreferrer">
                                     <CodeIcon style={{maxHeight: "55px", maxWidth: "55px", minHeight: "55px", minWidth: "55px", color: "#303C36"}}/>
                                 </Button>
                             </div>

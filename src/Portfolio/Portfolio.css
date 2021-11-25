@@ -6,6 +6,11 @@
     height: 100%;
 }
 
+#shuffle.portfolioRoot {
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(57, 50px);
+}
+
 #unlock.portfolioRoot {
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(62, 50px);
@@ -42,6 +47,14 @@
     
     border-radius: 10px;
     font-family: 'Playfair Display', serif;
+}
+
+#shuffle.subRoot {
+    grid-column: 2/9;
+    grid-row: 4/55;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(54, 50px);
 }
 
 #unlock.subRoot {
@@ -107,6 +120,10 @@
     grid-column: 2/7;
 }
 
+#shuffle.descriptionContent {
+    grid-row: 5/7;
+}
+
 #unlock.descriptionContent {
     grid-row: 5/9;
 }
@@ -120,8 +137,17 @@
     font-size: 24px;
 }
 
+#shuffle.conceptTitle {
+    grid-row: 8/9
+}
+
 #unlock.conceptTitle {
     grid-row: 10/11
+}
+
+#shuffle.conceptDescription {
+    grid-row: 9/10;
+    grid-column: 2/7;
 }
 
 #unlock.conceptDescription {
@@ -132,6 +158,10 @@
 .conceptGallery {
     grid-row: 8/20;
     grid-column: 2/7;
+}
+
+#shuffle.conceptGallery {
+    grid-row: 10/22;
 }
 
 #unlock.conceptGallery {
@@ -147,8 +177,17 @@
     font-size: 24px;
 }
 
+#shuffle.refinedTitle {
+    grid-row: 23/24;
+}
+
 #unlock.refinedTitle {
     grid-row: 25/26;
+}
+
+#shuffle.refinedDescription {
+    grid-row: 24/25;
+    grid-column: 2/7;
 }
 
 #unlock.refinedDescription {
@@ -160,6 +199,10 @@
     grid-row: 22/34;
     grid-column: 2/7;
 } 
+
+#shuffle.refinedGallery {
+    grid-row: 25/37;
+}
 
 #unlock.refinedGallery {
     grid-row: 28/40;
@@ -174,6 +217,10 @@
     font-size: 24px;
 }
 
+#shuffle.videoTitle {
+    grid-row: 38/39;
+}
+
 #unlock.videoTitle {
     grid-row: 41/42;
 }
@@ -184,6 +231,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#shuffle.video {
+    grid-row: 39/46;
 }
 
 #unlock.video {
@@ -198,6 +249,10 @@
     font-size: 24px;
     display: flex;
     justify-content: space-evenly;
+}
+
+#shuffle.extras {
+    grid-row: 47/48;
 }
 
 #unlock.extras {
@@ -240,6 +295,10 @@ a.unlockLink:hover {
     font-size: 24px;
 }
 
+#shuffle.myContributionsTitle {
+    grid-row: 49/50;
+}
+
 #unlock.myContributionsTitle {
     grid-row: 53/54;
 }
@@ -247,6 +306,10 @@ a.unlockLink:hover {
 .myContributions {
     grid-row: 47/49;
     grid-column: 2/7;
+}
+
+#shuffle.myContributions {
+    grid-row: 50/52;
 }
 
 #unlock.myContributions {

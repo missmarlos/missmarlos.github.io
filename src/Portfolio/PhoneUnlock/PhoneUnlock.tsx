@@ -77,9 +77,9 @@ export default function PhoneUnlock(){
                     </div>
                     <div className="extras" id="unlock">links</div>
                     <div className="extrasContent">
-                        <a className="unlockLink" href="https://github.com/mightymosdan/ravioli" target="_blank">part a source code</a>
-                        <a className="unlockLink" href="https://www.figma.com/file/17X9niDSoSJPE4SCrRaKBX/CPSC-581-Project-2?node-id=0%3A1" target="_blank">part b figma mockup</a>
-                        <a className="unlockLink" href="https://cloud.protopie.io/p/edec27bf7e" target="_blank">part b protopie prototype</a>
+                        <a className="unlockLink" href="https://github.com/mightymosdan/ravioli" target="_blank" rel="noreferrer">part a source code</a>
+                        <a className="unlockLink" href="https://www.figma.com/file/17X9niDSoSJPE4SCrRaKBX/CPSC-581-Project-2?node-id=0%3A1" target="_blank" rel="noreferrer">part b figma mockup</a>
+                        <a className="unlockLink" href="https://cloud.protopie.io/p/edec27bf7e" target="_blank" rel="noreferrer">part b protopie prototype</a>
                     </div>
                     <div className="myContributionsTitle" id="unlock">
                         my contributions
