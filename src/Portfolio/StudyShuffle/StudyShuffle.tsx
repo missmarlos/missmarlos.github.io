@@ -78,10 +78,9 @@ export default function StudyShuffle(){
                         my contributions
                     </div>
                     <div className="myContributions" id="shuffle">
-                        As for the sketches, the ones I came up with were concept sketches 9 and 10, 
-                        as well as refined sketches 1-4. For the implementation, I added the copy ability items, 
-                        transformations, and the 'Poyo!' sound effects. Lastly, I edited the demo video above. 
-                        I am grateful to have such strong teammates and am always grateful for our success in collaboration!
+                        As for the sketches, the ones I came up with were concept sketch 4, 
+                        and refined sketches 7-10. For the implementation, I created the demo video and designed the spinner element
+                        for the arduino servo that allows users to pick a genre to study to. 
                     </div>
                 </div>
             </div>
