@@ -68,7 +68,7 @@ export default function StudyShuffle(){
                         <div className="sourceCode">
                             <a href="https://github.com/soapsrc/study-shuffle" target="_blank" rel="noreferrer">source code</a>
                             <div>
-                                <Button style={{maxHeight: "30px", maxWidth: "30px", minHeight: "30px", minWidth: "30px"}} href="https://github.com/soapsrc/Project-Me-Button.git" target="_blank" rel="noreferrer">
+                                <Button style={{maxHeight: "30px", maxWidth: "30px", minHeight: "30px", minWidth: "30px"}} href="https://github.com/soapsrc/study-shuffle" target="_blank" rel="noreferrer">
                                     <CodeIcon style={{maxHeight: "55px", maxWidth: "55px", minHeight: "55px", minWidth: "55px", color: "#303C36"}}/>
                                 </Button>
                             </div>
