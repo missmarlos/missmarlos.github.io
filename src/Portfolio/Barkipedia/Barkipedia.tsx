@@ -47,9 +47,9 @@ export default function Barkipedia(){
                     </div>
                     <div className="extras" id="barkipedia">
                         <div>
-                            <a href="https://cpsc481fall2019.github.io/index.html" target="_blank">group portfolio</a>
+                            <a href="https://cpsc481fall2019.github.io/index.html" target="_blank" rel="noreferrer">group portfolio</a>
                             <div>
-                                <Button style={{maxHeight: "30px", maxWidth: "30px", minHeight: "30px", minWidth: "30px"}} href="https://cpsc481fall2019.github.io/index.html" target="_blank">
+                                <Button style={{maxHeight: "30px", maxWidth: "30px", minHeight: "30px", minWidth: "30px"}} href="https://cpsc481fall2019.github.io/index.html" target="_blank" rel="noreferrer">
                                     <WebIcon style={{maxHeight: "55px", maxWidth: "55px", minHeight: "55px", minWidth: "55px", color: "#303C36"}}/>
                                 </Button>
                             </div>
@@ -57,7 +57,7 @@ export default function Barkipedia(){
                         <div>
                             <a href="https://xd.adobe.com/view/f1f8bda3-f374-49f9-776b-e1133915443b-87c9/?fullscreen" target="_blank">final high fidelity prototype</a>
                             <div>
-                                <Button style={{maxHeight: "30px", maxWidth: "30px", minHeight: "30px", minWidth: "30px"}} href="https://xd.adobe.com/view/f1f8bda3-f374-49f9-776b-e1133915443b-87c9/?fullscreen" target="_blank">
+                                <Button style={{maxHeight: "30px", maxWidth: "30px", minHeight: "30px", minWidth: "30px"}} href="https://xd.adobe.com/view/f1f8bda3-f374-49f9-776b-e1133915443b-87c9/?fullscreen" target="_blank" rel="noreferrer">
                                     <SlideshowIcon style={{maxHeight: "55px", maxWidth: "55px", minHeight: "55px", minWidth: "55px", color: "#303C36"}}/>
                                 </Button>
                             </div>

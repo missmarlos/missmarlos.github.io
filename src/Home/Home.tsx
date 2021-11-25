@@ -41,13 +41,13 @@ export default function Home(props: Props){
                         {props.text}
                     </div>
                     <div className="links">
-                        <Button style={{maxHeight: "30px", maxWidth: "30px", minHeight: "30px", minWidth: "30px"}} href="https://github.com/missmarlos" target="_blank">
+                        <Button style={{maxHeight: "30px", maxWidth: "30px", minHeight: "30px", minWidth: "30px"}} href="https://github.com/missmarlos" target="_blank" rel="noreferrer">
                             <GitHubIcon style={{maxHeight: "55px", maxWidth: "55px", minHeight: "55px", minWidth: "55px"}}/>
                         </Button>
-                        <Button style={{maxHeight: "30px", maxWidth: "30px", minHeight: "30px", minWidth: "30px"}} href="https://www.linkedin.com/in/marela-carlos" target="_blank">
+                        <Button style={{maxHeight: "30px", maxWidth: "30px", minHeight: "30px", minWidth: "30px"}} href="https://www.linkedin.com/in/marela-carlos" target="_blank" rel="noreferrer">
                             <LinkedInIcon style={{maxHeight: "55px", maxWidth: "55px", minHeight: "55px", minWidth: "55px"}}/>
                         </Button>
-                        <Button style={{maxHeight: "30px", maxWidth: "30px", minHeight: "30px", minWidth: "30px"}} href={resume} target="_blank">
+                        <Button style={{maxHeight: "30px", maxWidth: "30px", minHeight: "30px", minWidth: "30px"}} href={resume} target="_blank" rel="noreferrer">
                             <DescriptionIcon style={{maxHeight: "55px", maxWidth: "55px", minHeight: "55px", minWidth: "55px"}}/>
                         </Button>
                     </div>
