@@ -145,14 +145,16 @@
     grid-row: 10/11
 }
 
+.conceptDescription {
+    grid-column: 2/7;
+}
+
 #shuffle.conceptDescription {
     grid-row: 9/10;
-    grid-column: 2/7;
 }
 
 #unlock.conceptDescription {
     grid-row: 11/12;
-    grid-column: 2/7;
 }
 
 .conceptGallery {
@@ -272,18 +274,30 @@
 }
 
 .extrasContent {
-    grid-row: 51/52;
     grid-column: 2/7;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
     font-family: 'Abril Fatface', cursive;
-    color: #80ACA1;
     font-size: 16px;
+}
+
+#unlock.extrasContent {
+    grid-row: 51/52;
+    color: #80ACA1;
+}
+
+#nothing.extrasContent{
+    grid-row: 48/49;
+    color: #FFCCF1;
 }
 
 a.unlockLink:hover {
     color: #D4F099;
+}
+
+a.nothingLink:hover {
+    color: #D3CCFF;
 }
 
 .myContributionsTitle {

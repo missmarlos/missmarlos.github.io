@@ -7,6 +7,7 @@ import Barkipedia from '../Portfolio/Barkipedia/Barkipedia';
 import Hypertrophy from '../Portfolio/Hypertrophy/Hypertrophy';
 import PhoneUnlock from '../Portfolio/PhoneUnlock/PhoneUnlock';
 import StudyShuffle from '../Portfolio/StudyShuffle/StudyShuffle';
+import AsIfIKnewNothing from '../Portfolio/AsIfIKnewNothing/AsIfIKnewNothing';
 
 function App() {
   var page = text[0].content.text ?? "";
@@ -20,6 +21,7 @@ function App() {
             <Route path="/home" >
               <Home text={page}/>
             </Route>
+            <Route path="/portfolio6" component={AsIfIKnewNothing}/>
             <Route path="/portfolio5" component={StudyShuffle}/>
             <Route path="/portfolio4" component={PhoneUnlock}/>
             <Route path="/portfolio3" component={MeButton}/>
