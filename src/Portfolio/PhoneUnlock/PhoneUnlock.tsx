@@ -76,7 +76,7 @@ export default function PhoneUnlock(){
                         </iframe>
                     </div>
                     <div className="extras" id="unlock">links</div>
-                    <div className="extrasContent">
+                    <div className="extrasContent" id="unlock">
                         <a className="unlockLink" href="https://github.com/mightymosdan/ravioli" target="_blank" rel="noreferrer">part a source code</a>
                         <a className="unlockLink" href="https://www.figma.com/file/17X9niDSoSJPE4SCrRaKBX/CPSC-581-Project-2?node-id=0%3A1" target="_blank" rel="noreferrer">part b figma mockup</a>
                         <a className="unlockLink" href="https://cloud.protopie.io/p/edec27bf7e" target="_blank" rel="noreferrer">part b protopie prototype</a>
